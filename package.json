@@ -1,0 +1,21 @@
+{
+    "name": "nightlight",
+    "displayName": "Nightlight",
+    "description": "Inspired-by and intended for KDE Plasma Modernity (by phob1an)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nightlight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nightlight-color-theme.json"
+            }
+        ]
+    }
+}
