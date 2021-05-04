@@ -17,5 +17,10 @@
                 "path": "./themes/Nightlight-color-theme.json"
             }
         ]
-    }
+    },
+    "configurationDefaults": {
+        "[languageId]": {
+          "editor.semanticHighlighting.enabled": true
+        }
+      }
 }
