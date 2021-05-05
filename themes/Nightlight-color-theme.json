@@ -17,7 +17,7 @@
 		// Text Colors
 		"textBlockQuote.background": "#4d4d65",
 		"textBlockQuote.border": "#f56777",
-		"textCodeBlock.background": "#ff0000",
+		"textCodeBlock.background": "#373747",
 		"textLink.activeForeground": "#f56777",
 		"textLink.foreground": "#f56777",
 		"textPreformat.foreground": "#3daee9",
@@ -97,6 +97,8 @@
 		"editor.background": "#373747",
 		"editor.foreground": "#bfbfe2",
 		"editorCursor.foreground": "#ee6d94",
+		"editor.lineHighlightBackground": "#67527380",
+		"editor.lineHighlightBorder": "#f000",
 		"editorLineNumber.foreground": "#4d4d65",
 		"editorLineNumber.activeForeground": "#f56777",
 		"editor.selectionBackground": "#bfbfe240",
@@ -105,7 +107,9 @@
 		"editor.selectionHighlightBackground": "#bfbfe220",
 		"editor.findMatchBackground": "#bfbfe220",
 		"editor.findMatchHighlightBackground": "#bfbfe220",
-		"editor.findRangeHighlightBackground": "#bfbfe210",
+		"editor.findRangeHighlightBackground": "#d4d4fa10",
+		"editorLightBulb.foreground": "#ffc041",
+		"editorLightBulbAutoFix.foreground": "#ffc041",
 		// TODO
 
 		// Diff Editor Colors
@@ -133,7 +137,12 @@
 		"panelInput.border": "#ff0000",
 
 		// Status Bar Colors
+		"statusBar.noFolderBackground": "#4d4d65",
 		"statusBar.background": "#4d4d65",
+		// "statusBarItem.remoteBackground": "#147eb8",
+		"statusBarItem.remoteBackground": "#5c8056",
+		"statusBarItem.errorBackground": "#c85562",
+		"statusBar.debuggingBackground": "#aa704d",
 		// TODO
 
 		// Title Bar Colors
@@ -186,7 +195,21 @@
 		"terminalCursor.foreground": "#ee6d94",
 
 		// Debug Colors
-		// TODO
+		"debugToolBar.background": "#1c1420",
+		"debugToolBar.border": "#f000",
+		"editor.stackFrameHighlightBackground": "#ff0000",
+		"editor.focusedStackFrameHighlightBackground": "#1c1420",
+		"debugView.exceptionLabelForeground": "#ff0000",
+		"debugView.exceptionLabelBackground": "#ff0000",
+		"debugView.stateLabelForeground": "#ff0000",
+		"debugView.stateLabelBackground": "#ff0000",
+		"debugView.valueChangedHighlight": "#ff0",
+		"debugTokenExpression.name": "#bfbfe2",
+		"debugTokenExpression.value": "#bfbfe2",
+		"debugTokenExpression.string": "#ff0000",
+		"debugTokenExpression.boolean": "#ff0000",
+		"debugTokenExpression.number": "#bfbfe2",
+		"debugTokenExpression.error": "#ff0000",
 
 		// Testing View Colors
 		// TODO
@@ -194,8 +217,8 @@
 		// Welcome Page Colors
 		// Doesn't apply.
 
-		// Source Control Colors
-		// What is this?
+		// Source Control Colors // What is this?
+		// "scm.providerBorder": "#ff0000",
 
 		// Git Colors
 		// TODO
@@ -205,19 +228,72 @@
 		"notebook.focusedRowBorder": "#f000",
 
 		// Breadcrumbs Colors
-		// Doesn't apply.
+		// TODO
 
 		// Snippets Colors
 		"editor.snippetTabstopHighlightBackground": "#fff3",
 		"editor.snippetTabstopHighlightBorder": "#f000",
 		"editor.snippetFinalTabstopHighlightBackground": "#fff3",
-		"editor.snippetFinalTabstopHighlightBorder": "#f000"
+		"editor.snippetFinalTabstopHighlightBorder": "#f000",
 
 		// Symbol Icons Colors
+		"symbolIcon.textForeground": "#fff",
+		"symbolIcon.fileForeground": "#fff",
+		"symbolIcon.folderForeground": "#fff",
+		"symbolIcon.snippetForeground": "#fff",
+		"symbolIcon.functionForeground": "#fff",
+
+		"symbolIcon.arrayForeground": "#fff",
+		"symbolIcon.booleanForeground": "#fff",
+		"symbolIcon.enumeratorForeground": "#fff",
+		"symbolIcon.enumeratorMemberForeground": "#fff",
+		"symbolIcon.numberForeground": "#fff",
+		"symbolIcon.stringForeground": "#fff",
+		"symbolIcon.structForeground": "#fff",
+		"symbolIcon.typeParameterForeground": "#fff",
+		"symbolIcon.variableForeground": "#fff",
+		"symbolIcon.constantForeground": "#fff",
+		"symbolIcon.keywordForeground": "#fff",
+
+
+		"symbolIcon.packageForeground": "#fff",
+		"symbolIcon.moduleForeground": "#fff",
+		"symbolIcon.namespaceForeground": "#fff",
+		"symbolIcon.interfaceForeground": "#fff",
+		"symbolIcon.classForeground": "#fff",
+		"symbolIcon.constructorForeground": "#fff",
+		"symbolIcon.fieldForeground": "#fff",
+		"symbolIcon.methodForeground": "#fff",
+		"symbolIcon.keyForeground": "#fff",
+		"symbolIcon.objectForeground": "#fff",
+		"symbolIcon.propertyForeground": "#fff",
+		"symbolIcon.referenceForeground": "#fff",
+
+		"symbolIcon.nullForeground": "#fff",
+		"symbolIcon.operatorForeground": "#fff",
+		"symbolIcon.unitForeground": "#fff",
+		"symbolIcon.colorForeground": "#fff",
+		"symbolIcon.eventForeground": "#fff",
 		// TODO
 
 		// Debug Icons Colors
-		// TODO
+		"debugIcon.breakpointForeground": "#ff4161",
+		"debugIcon.breakpointDisabledForeground": "#67ab19",
+		"debugIcon.breakpointUnverifiedForeground": "#ffc041",
+		"debugIcon.startForeground": "#67ab19",
+		"debugIcon.restartForeground": "#ffc041",
+		"debugIcon.continueForeground": "#67ab19",
+		"debugIcon.pauseForeground": "#ff4161",
+		"debugIcon.stopForeground": "#ff4161",
+		"debugIcon.stepOverForeground": "#4180ff",
+		"debugIcon.stepIntoForeground": "#4180ff",
+		"debugIcon.stepOutForeground": "#4180ff",
+		"debugIcon.stepBackForeground": "#4180ff",
+		"debugConsole.infoForeground": "#bfbfe2",
+		"debugConsole.warningForeground": "#ffc041",
+		"debugConsole.errorForeground": "#ff4161",
+		"debugConsole.sourceForeground": "#67ab19",
+		"debugConsoleInputIcon.foreground": "#ee6d94",
 
 		// Notebook Colors
 		// TODO
@@ -229,170 +305,153 @@
 		// TODO
 
 		// Extension Colors
-		// Doesn't apply.
+		"extensionIcon.starForeground": "#67ab19"
 	},
-	// "tokenColors": [
-	// 	{
-	// 		"name": "Base Source",
-	// 		"scope": [
-	// 			"source",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "",
-	// 			"foreground": "#bfbfe2"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "Comment",
-	// 		"scope": [
-	// 			"comment",
-	// 			"punctuation.definition.comment"
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "",
-	// 			"foreground": "#ff6c7d"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "Preprocessor",
-	// 		"scope": [
-	// 			"entity.name.function.preprocessor",
-	// 			"punctuation.definition.directive",
-	// 			"keyword.control.directive",
-	// 			"meta.preprocessor",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "bold",
-	// 			"foreground": "#7e8fff"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "Static Function",
-	// 		"scope": [
-	// 			"storage.modifier",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "bold",
-	// 			"foreground": "#7e8fff"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "Static Function",
-	// 		"scope": [
-	// 			"storage.modifier",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "bold",
-	// 			"foreground": "#7e8fff"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "Function Name",
-	// 		"scope": [
-	// 			"entity.name.function",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "",
-	// 			"foreground": "#7e8fff"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "Function Parameter",
-	// 		"scope": [
-	// 			"variable.parameter.probably",
-	// 			"meta.function.definition.parameters",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "",
-	// 			"foreground": "#ffffff"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "Built-In Type",
-	// 		"scope": [
-	// 			"storage.type.built-in.primitive",
-	// 			"storage.type.built-in.c",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "",
-	// 			"foreground": "#bfbfe2"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "String",
-	// 		"scope": [
-	// 			"punctuation.definition.string.begin",
-	// 			"punctuation.definition.string.end",
-	// 			"string.quoted.double",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "",
-	// 			"foreground": "#fffb92"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "Number Literal",
-	// 		"scope": [
-	// 			"constant.numeric",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "",
-	// 			"foreground": "#bfbfe2"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "Struct Access",
-	// 		"scope": [
-	// 			"variable.other.object.access",
-	// 			// "variable.other.member",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "",
-	// 			"foreground": "#7e8fff"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "Accessed Property",
-	// 		"scope": [
-	// 			"property",
-	// 			// "variable.other.member",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "",
-	// 			"foreground": "#f00"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "Struct Access",
-	// 		"scope": [
-	// 			"punctuation.separator.pointer-access",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "",
-	// 			"foreground": "#bfbfe2"
-	// 		}
-	// 	},
-	// 	{
-	// 		"name": "Logical Operator",
-	// 		"scope": [
-	// 			"keyword.operator.logical",
-	// 		],
-	// 		"settings": {
-	// 			"fontStyle": "bold",
-	// 			"foreground": "#ff6c7d"
-	// 		}
-	// 	},
-	// ],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"function": "#28acf8",
+		"method": "#28acf8",
+		"event": "#28acf8",
+    	"property": "#7e8fff",
 		"parameter": "#7e8fff",
-    	"property": "#bfbfe2",
 		"enumMember": "#bfbfe2",
-		"operator": "#f00",
-		"macro": "#ec4079",
-		"variable.local": "#fff",
-		"variable.readonly": "#ff0",
-		"variable.global": "#ec4079"
-  	}
+		"variable": "#bfbfe2",
+		"variable.readonly": "#ffc041",
+		"variable.global": "#ff4161",
+		"macro": "#ff4161",
+		"comment": "#ff4161",
+		"keyword": "#fff",
+		"number": "#fff",
+		// "operator": "#ff0000",
+
+		"namespace": { "foreground": "#7e8fff", "fontStyle": "bold" },
+		"class": { "foreground": "#67ab19", "fontStyle": "bold" },
+		"enum": { "foreground": "#67ab19", "fontStyle": "bold" },
+		"interface": { "foreground": "#67ab19", "fontStyle": "bold" },
+		"struct": { "foreground": "#67ab19", "fontStyle": "bold" },
+		"type": "#67ab19",
+		"typeParameter": "#7e8fff",
+		"label": "#ffc041",
+		"string": "#ffc041",
+		"regexp": "#ffc041",
+  	},
+	"tokenColors": [
+		{
+			"name": "Base Source",
+			"scope": [
+				"source",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#bfbfe2"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ff6c7d"
+			}
+		},
+		{
+			"name": "Preprocessor",
+			"scope": [
+				"punctuation.definition.directive",
+				"keyword.control.directive",
+				"meta.preprocessor",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#7e8fff"
+			}
+		},
+		{
+			"name": "Preprocessor content",
+			"scope": [
+				"entity.name.function.preprocessor",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#7e8fff"
+			}
+		},
+		{
+			"name": "Storage Modifier",
+			"scope": [
+				"storage.modifier",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#7e8fff"
+			}
+		},
+		{
+			"name": "Function Name",
+			"scope": [
+				"entity.name.function",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#28acf8"
+			}
+		},
+		{
+			"name": "Function Parameter",
+			"scope": [
+				"variable.parameter.probably",
+				"meta.function.definition.parameters",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Built-In Type",
+			"scope": [
+				"storage.type.built-in.primitive",
+				"storage.type.built-in.c",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#67ab19"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ffc041"
+			}
+		},
+		{
+			"name": "Number Literal",
+			"scope": [
+				"constant.numeric",
+				"keyword.other.unit.hexadecimal",
+				"keyword.other.unit.binary"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "Logical Operator",
+			"scope": [
+				"keyword.operator.logical",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ff6c7d"
+			}
+		},
+	],
 }
