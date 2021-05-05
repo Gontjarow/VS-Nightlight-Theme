@@ -13,7 +13,7 @@
         "themes": [
             {
                 "label": "Nightlight",
-                "uiTheme": "vs-dark",
+                "uiTheme": "hc-black",
                 "path": "./themes/Nightlight-color-theme.json"
             }
         ]
