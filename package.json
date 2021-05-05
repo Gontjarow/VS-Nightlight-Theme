@@ -1,7 +1,7 @@
 {
     "name": "nightlight",
     "displayName": "Nightlight",
-    "description": "Inspired-by and intended for KDE Plasma Modernity (by phob1an)",
+    "description": "Inspired-by and intended for KDE Plasma Modernity",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.55.0"
@@ -20,7 +20,7 @@
     },
     "configurationDefaults": {
         "[languageId]": {
-          "editor.semanticHighlighting.enabled": true
+            "editor.semanticHighlighting.enabled": true
         }
-      }
+    }
 }

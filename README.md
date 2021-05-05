@@ -11,3 +11,7 @@ You can author your README using Visual Studio Code.  Here are some useful edito
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
+# Credits & Honorable mentions
+* Phob1an — Modernity — The theme Nightlight is intended to blend with.
+* David Perkins — Purrp! Theme — Some elements use colors based on this.
