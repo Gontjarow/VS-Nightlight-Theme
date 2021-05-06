@@ -224,9 +224,18 @@
 		"peekViewResult.matchHighlightBackground": "#926e9e",
 		// "peekViewResult.selectionBackground": "#ff0000",
 		// "peekViewResult.selectionForeground": "#ff0000",
-		// TODO
 
 		// Merge conflicts colors
+		// merge.border
+		"merge.currentHeaderBackground": "#4180ff",
+		"merge.currentContentBackground": "#4180ff80",
+		// "editorOverviewRuler.currentContentForeground": "#ff0000",
+		"merge.incomingHeaderBackground": "#67ab19",
+		"merge.incomingContentBackground": "#67ab1980",
+		// "editorOverviewRuler.incomingContentForeground": "#ff0000",
+		// "merge.commonContentBackground": "#ff0000",
+		// "merge.commonHeaderBackground": "#ff0000",
+		// "editorOverviewRuler.commonContentForeground": "#ff0000",
 		// TODO
 
 		// Panel Colors
@@ -242,16 +251,14 @@
 		"statusBarItem.remoteBackground": "#5c8056",
 		"statusBarItem.errorBackground": "#c85562",
 		"statusBar.debuggingBackground": "#aa704d",
-		// TODO
 
 		// Title Bar Colors
 		// Doesn't apply.
 
 		// Menu Bar Colors
-		// What is this?
+		// Doesn't apply.
 
 		// Notification Colors
-
 		"notificationCenter.border": "#f000",
 		"notificationCenterHeader.background": "#545a74",
 		"notificationToast.border": "#f000",
@@ -310,9 +317,6 @@
 		"debugTokenExpression.number": "#bfbfe2",
 		"debugTokenExpression.error": "#ff0000",
 
-		// Testing View Colors
-		// TODO
-
 		// Welcome Page Colors
 		// Doesn't apply.
 
@@ -320,6 +324,16 @@
 		// "scm.providerBorder": "#ff0000",
 
 		// Git Colors
+		"gitDecoration.addedResourceForeground": "#67ab19",
+		"gitDecoration.modifiedResourceForeground": "#ffc041",
+		"gitDecoration.deletedResourceForeground": "#ff4161",
+		"gitDecoration.renamedResourceForeground": "#4180ff",
+		// gitDecoration.stageModifiedResourceForeground
+		// gitDecoration.stageDeletedResourceForeground
+		// gitDecoration.untrackedResourceForeground
+		// gitDecoration.ignoredResourceForeground
+		// gitDecoration.conflictingResourceForeground
+		// gitDecoration.submoduleResourceForeground
 		// TODO
 
 		// Settings Editor Colors
@@ -327,7 +341,7 @@
 		"notebook.focusedRowBorder": "#f000",
 
 		// Breadcrumbs Colors
-		// TODO
+		// Doesn't apply.
 
 		// Snippets Colors
 		"editor.snippetTabstopHighlightBackground": "#fff3",
@@ -373,7 +387,6 @@
 		"symbolIcon.unitForeground": "#fff",
 		"symbolIcon.colorForeground": "#fff",
 		"symbolIcon.eventForeground": "#fff",
-		// TODO
 
 		// Debug Icons Colors
 		"debugIcon.breakpointForeground": "#ff4161",
@@ -398,7 +411,9 @@
 		// TODO
 
 		// Chart Colors
-		"charts.foreground": "#ff0000",
+		// TODO
+
+		// Testing View Colors
 		// TODO
 
 		// Testing Colors
