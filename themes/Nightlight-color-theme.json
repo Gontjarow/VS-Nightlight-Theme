@@ -183,16 +183,33 @@
 		"searchEditor.textInputBorder": "#ff0000",
 
 		// Diff Editor Colors
-		// TODO
+		"diffEditor.border": "#4d4d65",
+		"diffEditor.insertedTextBackground": "#6969ff80",
+		"diffEditor.insertedTextBorder": "#f000",
+		"diffEditor.removedTextBackground": "#ff696980",
+		"diffEditor.removedTextBorder": "#f000",
+		"diffEditor.diagonalFill": "#9b4f57",
 
 		// Editor Widget Colors
 		"editorWidget.background": "#545a74",
 		"editorWidget.border": "#f000",
 		"editorWidget.resizeBorder": "#f56777",
-		// TODO editorSuggestWidget
-		// TODO editorHoverWidget
-		// TODO debugExceptionWidget
-		// TODO editorMarkerNavigation
+
+		"editorSuggestWidget.background": "#1c1420",
+		"editorSuggestWidget.border": "#f000",
+		"editorSuggestWidget.foreground": "#ccc",
+		"editorSuggestWidget.highlightForeground": "#f56777",
+
+		"editorHoverWidget.background": "#545a74",
+		"editorHoverWidget.foreground": "#fff",
+
+		"debugExceptionWidget.background": "#1c1420",
+		"debugExceptionWidget.border": "#f000",
+
+		"editorMarkerNavigation.background": "#1c1420",
+		"editorMarkerNavigationError.background": "#ff4161",
+		"editorMarkerNavigationWarning.background": "#ffc041",
+		"editorMarkerNavigationInfo.background": "#4180ff",
 
 		// Peek View Colors
 		"peekView.border": "#4d4d65",
@@ -279,8 +296,8 @@
 		// Debug Colors
 		"debugToolBar.background": "#1c1420",
 		"debugToolBar.border": "#f000",
-		"editor.stackFrameHighlightBackground": "#ff0000",
-		"editor.focusedStackFrameHighlightBackground": "#1c1420",
+		"editor.stackFrameHighlightBackground": "#1c1420",
+		"editor.focusedStackFrameHighlightBackground": "#ff0000",
 		"debugView.exceptionLabelForeground": "#ff0000",
 		"debugView.exceptionLabelBackground": "#ff0000",
 		"debugView.stateLabelForeground": "#ff0000",
