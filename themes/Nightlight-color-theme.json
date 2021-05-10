@@ -28,7 +28,7 @@
 		// Button Control
 		"button.background": "#926e9e",
 		"button.hoverBackground": "#856d8d",
-		"button.secondaryBackground": "#ff0000",
+		// "button.secondaryBackground": "#ff0000",
 		"checkbox.background": "#926e9e",
 		"checkbox.border": "#f000",
 
@@ -73,7 +73,7 @@
 		"list.filterMatchBackground": "#373747",
 		"list.filterMatchBorder": "#f000",
 		"tree.indentGuidesStroke":  "#7a7a8c",
-		"tree.tableColumnsBorder": "#ff0000",
+		// "tree.tableColumnsBorder": "#ff0000",
 
 		// Activity Bar
 		"activityBar.background": "#4d4d65",
@@ -133,10 +133,10 @@
 
 		"editorOverviewRuler.border": "#ff000000",
 		"editorOverviewRuler.findMatchForeground": "#fff",
-		"editorOverviewRuler.rangeHighlightForeground": "#ff0000",
-		"editorOverviewRuler.selectionHighlightForeground": "#ff0000",
-		"editorOverviewRuler.wordHighlightForeground": "#ff0000",
-		"editorOverviewRuler.wordHighlightStrongForeground": "#ff0000",
+		// "editorOverviewRuler.rangeHighlightForeground": "#ff0000",
+		// "editorOverviewRuler.selectionHighlightForeground": "#ff0000",
+		// "editorOverviewRuler.wordHighlightForeground": "#ff0000",
+		// "editorOverviewRuler.wordHighlightStrongForeground": "#ff0000",
 		"editorOverviewRuler.addedForeground": "#67ab19",
 		"editorOverviewRuler.modifiedForeground": "#4180ff",
 		"editorOverviewRuler.deletedForeground": "#ff4161",
@@ -144,7 +144,7 @@
 		"editorOverviewRuler.warningForeground": "#ffc041",
 		"editorOverviewRuler.infoForeground": "#4180ff",
 		"editorOverviewRuler.bracketMatchForeground": "#6b7394",
-		"editorOverviewRuler.commonContentForeground": "#ff0000",
+		// "editorOverviewRuler.commonContentForeground": "#ff0000",
 
 		"editorRuler.foreground": "#f56777",
 
@@ -154,8 +154,8 @@
 
 		"editor.selectionBackground": "#bfbfe2",
 		"editor.selectionForeground": "#2d2d3b",
-		"editor.inactiveSelectionBackground": "#bfbfe2",
-		"editor.selectionHighlightBackground": "#2d2d3b",
+		"editor.inactiveSelectionBackground": "#bfbfe260",
+		"editor.selectionHighlightBackground": "#bfbfe260",
 		"editor.hoverHighlightBackground": "#545a74",
 
 		"editor.findMatchBackground": "#bfbfe220",
@@ -163,8 +163,8 @@
 		"editor.findRangeHighlightBackground": "#261b2c",
 
 		"editor.rangeHighlightBackground": "#4e445c",
-		"editor.symbolHighlightBackground": "#ff0000",
-		"editor.symbolHighlightBorder": "#ff0000",
+		// "editor.symbolHighlightBackground": "#ff0000",
+		// "editor.symbolHighlightBorder": "#ff0000",
 
 		"editorWhitespace.foreground": "#6b739480",
 		"editorIndentGuide.background": "#6b739440",
@@ -179,8 +179,8 @@
 		"editorHint.foreground": "#ff0",
 		"editorHint.border": "#ffff0000",
 
-		"searchEditor.findMatchBackground": "#ff0000",
-		"searchEditor.textInputBorder": "#ff0000",
+		// "searchEditor.findMatchBackground": "#ff0000",
+		// "searchEditor.textInputBorder": "#ff0000",
 
 		// Diff Editor Colors
 		"diffEditor.border": "#4d4d65",
@@ -241,8 +241,8 @@
 		// Panel Colors
 		"panel.background": "#4d4d65",
 		"panel.border": "#f000",
-		"panelSection.border": "#ff0000",
-		"panelInput.border": "#ff0000",
+		// "panelSection.border": "#ff0000",
+		// "panelInput.border": "#ff0000",
 
 		// Status Bar Colors
 		"statusBar.noFolderBackground": "#4d4d65",
@@ -304,18 +304,18 @@
 		"debugToolBar.background": "#261b2c",
 		"debugToolBar.border": "#f000",
 		"editor.stackFrameHighlightBackground": "#261b2c",
-		"editor.focusedStackFrameHighlightBackground": "#ff0000",
-		"debugView.exceptionLabelForeground": "#ff0000",
-		"debugView.exceptionLabelBackground": "#ff0000",
-		"debugView.stateLabelForeground": "#ff0000",
-		"debugView.stateLabelBackground": "#ff0000",
+		// "editor.focusedStackFrameHighlightBackground": "#ff0000",
+		// "debugView.exceptionLabelForeground": "#ff0000",
+		// "debugView.exceptionLabelBackground": "#ff0000",
+		// "debugView.stateLabelForeground": "#ff0000",
+		// "debugView.stateLabelBackground": "#ff0000",
 		"debugView.valueChangedHighlight": "#ff0",
-		"debugTokenExpression.name": "#bfbfe2",
+		"debugTokenExpression.name": "#ccc",
 		"debugTokenExpression.value": "#bfbfe2",
-		"debugTokenExpression.string": "#ff0000",
-		"debugTokenExpression.boolean": "#ff0000",
+		"debugTokenExpression.string": "#bfe2c8",
+		"debugTokenExpression.boolean": "#e2e1bf",
 		"debugTokenExpression.number": "#bfbfe2",
-		"debugTokenExpression.error": "#ff0000",
+		"debugTokenExpression.error": "#e2bfbf",
 
 		// Welcome Page Colors
 		// Doesn't apply.
