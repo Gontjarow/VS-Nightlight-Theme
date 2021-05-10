@@ -160,7 +160,7 @@
 
 		"editor.findMatchBackground": "#bfbfe220",
 		"editor.findMatchHighlightBackground": "#bfbfe220",
-		"editor.findRangeHighlightBackground": "#1c1420",
+		"editor.findRangeHighlightBackground": "#261b2c",
 
 		"editor.rangeHighlightBackground": "#4e445c",
 		"editor.symbolHighlightBackground": "#ff0000",
@@ -195,7 +195,7 @@
 		"editorWidget.border": "#f000",
 		"editorWidget.resizeBorder": "#f56777",
 
-		"editorSuggestWidget.background": "#1c1420",
+		"editorSuggestWidget.background": "#261b2c",
 		"editorSuggestWidget.border": "#f000",
 		"editorSuggestWidget.foreground": "#ccc",
 		"editorSuggestWidget.highlightForeground": "#f56777",
@@ -203,10 +203,10 @@
 		"editorHoverWidget.background": "#545a74",
 		"editorHoverWidget.foreground": "#fff",
 
-		"debugExceptionWidget.background": "#1c1420",
+		"debugExceptionWidget.background": "#261b2c",
 		"debugExceptionWidget.border": "#f000",
 
-		"editorMarkerNavigation.background": "#1c1420",
+		"editorMarkerNavigation.background": "#261b2c",
 		"editorMarkerNavigationError.background": "#ff4161",
 		"editorMarkerNavigationWarning.background": "#ffc041",
 		"editorMarkerNavigationInfo.background": "#4180ff",
@@ -214,7 +214,7 @@
 		// Peek View Colors
 		"peekView.border": "#4d4d65",
 		"peekViewTitle.background": "#4d4d65",
-		"peekViewEditor.background": "#1c1420",
+		"peekViewEditor.background": "#261b2c",
 		// "peekViewEditorGutter.background": "#ff0000",
 		"peekViewEditor.matchHighlightBackground": "#413349",
 		"peekViewEditor.matchHighlightBorder": "#f000",
@@ -272,10 +272,10 @@
 		// Quick Picker Colors
 		"pickerGroup.border": "#f000",
 		"pickerGroup.foreground": "#ccc",
-		"quickInput.background": "#1c1420",
+		"quickInput.background": "#261b2c",
 		"quickInput.foreground": "#ccc",
 		"quickInputList.focusBackground": "#4e2e63",
-		"quickInputTitle.background": "#ff0000",
+		"quickInputTitle.background": "#ff000000",
 
 		// Integrated Terminal Colors
 		"terminal.background": "#373747",
@@ -301,9 +301,9 @@
 		"terminalCursor.foreground": "#ee6d94",
 
 		// Debug Colors
-		"debugToolBar.background": "#1c1420",
+		"debugToolBar.background": "#261b2c",
 		"debugToolBar.border": "#f000",
-		"editor.stackFrameHighlightBackground": "#1c1420",
+		"editor.stackFrameHighlightBackground": "#261b2c",
 		"editor.focusedStackFrameHighlightBackground": "#ff0000",
 		"debugView.exceptionLabelForeground": "#ff0000",
 		"debugView.exceptionLabelBackground": "#ff0000",
