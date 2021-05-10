@@ -1,4 +1,8 @@
 {
+    "publisher": "Gontjarow",
+    "repository": {
+        "url": "https://github.com/Gontjarow/VS-Nightlight-Theme"
+    },
     "name": "nightlight",
     "displayName": "Nightlight",
     "description": "Inspired-by and intended for KDE Plasma Modernity",
